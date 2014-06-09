@@ -1,0 +1,14 @@
+First part of the project.
+
+Requierements:
+
+.csv database with HPCP extracted from chord recordings
+
+the filename must be: "root_type_version_vamp_vamp-hpcp-mtg_MTG-HPCP_HPCP.csv"
+
+example: "B_min7_1_vamp_vamp-hpcp-mtg_MTG-HPCP_HPCP.csv"
+
+Types of chords analyzed:
+Maj7, min7, 7, sdis, aug7, minmaj7, 7b9.
+
+Computes chord detection and returns the results
