@@ -11,8 +11,8 @@ close all;
 
 % Change for dictionary and HPCP .csv files path
 run('/Users/apple/Isolate-chord-estimation/diccionari.m')
-addpath('/Users/apple/Isolate-chord-estimation/Acords') %Assign HPCP folder
-list = dir('Acords/*.csv');
+addpath('/Users/apple/Isolate-chord-estimation/csv') %Assign HPCP folder
+list = dir('csv/*.csv');
 
 compute2 = 1; % 2nd method (Trained profiles)
 compute3 = 1; % 3rd method (Trained and normalized profiles)
